@@ -45,6 +45,7 @@ body {
   position: relative;
   background-color: #3cdbc0;
   height: 100vh;
+  min-height: 300px;
 }
 
 .text {
@@ -59,7 +60,7 @@ body {
 
 @media all and (min-width: 768px) {
   .nav-bar {
-    display: flex;
+    /* display: flex; */
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
